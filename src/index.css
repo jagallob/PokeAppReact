@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hidden {
+  display: none;
+}
+
+.pokemon-normal-state,
+.pokemon-hover-state {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
